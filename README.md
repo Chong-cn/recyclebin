@@ -74,7 +74,7 @@ CREATE EXTENSION recyclebin;
 
 -- Enable recycle bin functionality
 SET recyclebin.enabled = on;
-SET recyclebin.enable_truncate_backup = off;
+SET recyclebin.enable_truncate_backup = on;
 
 -- Create test table
 CREATE TABLE users (id SERIAL PRIMARY KEY, name TEXT);
